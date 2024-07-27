@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C++ Technical Documentation</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <h2>Output:</h2>
+    <nav class="sidenav">
+    <h3 id="menu-id">Documentation menu</h3>
+      <a href="#">What is C++</a>
+      <a href="#objandClass">Objects and Classes</a>
+      <a href="#inheritance">Inheritance</a>
+      <a href="#polymorph">Polymorphism</a>
+      <a href="#abstract">Abstraction</a>
+      <a href="#encap">Encapsulation</a>
+    </nav>
+
+    <main>
+    <section>
+    <h3> What is C++? </h3>
+    <p>
+      C++ (or “C-plus-plus”) is a programming language for building software.
+      It’s an object-oriented language focusing on objects (data fields with
+      unique attributes) rather than logic or functions. A common example of an
+      object is a user account on a website. A user account typically comprises
+      data like first name, last name, email address, etc., and can be easily
+      replicated each time a new account is created. C++ was invented by Bjarne
+      Stroustrup in 1979 to extend C, a procedural programming language, and
+      offer programmers more control over memory and system resources. 
+      </p>
+      <p>
+      The "Hello World" program is the first step in learning any programming
+      language and one of the simplest programs you will learn. All you have to
+      do is display the message "Hello World" on the screen. 
+    </p>
+    
+    <p>   Let's look at the program: </p>
+    <code>
+        #include <br>
+        using namespace std; <br>
+        int main() <br>
+        { <br>
+        cout < < "Hello World"; <br>
+        } <br>
+    </code>
+    
+<p>C++ is an Object-Oriented Programming Language. The main pillars of Object-Oriented Programming are:</p>
+    <ul>
+        <li>Objects and Classes</li>
+        <li>Inheritance</li>
+        <li>Polymorphism</li>
+        <li>Abstraction</li>
+        <li>Encapsulation</li>
+    </ul>
+
+</section>
+
+    <section id="objandClass">
+        <h3>Objects and Classes</h3>
+        <p>In C++, classes and objects are fundamental concepts of object-oriented programming (OOP). They help in organizing code and managing complexity by grouping related data and functions.</p>
+
+        <header>Class:</header>
+        <p>A class is a blueprint for creating objects. It defines a type and describes the behaviors and properties that objects of that type can have. A class includes member variables (data members) and member functions (methods).</p>
+        <header>Object:</header>
+        <p>An object is an instance of a class. It contains actual values instead of definitions. Each object has its own set of data members and can use member functions defined in the class.</p>
+        <header>Example</header>
+        <p>Let's create a simple class called Car with some member variables and member functions.</p>
+
+    </section>
+
+    <section id="inheritance">
+        <h3>Inheritance</h3>
+        <p>
+          Inheritance is a fundamental concept in object-oriented programming that allows a class (derived class) to inherit properties and behaviors from another class (base class). This helps in code reusability and establishing a relationship between classes.
+        </p>
+        <p>Types of Inheritance</p>
+        <ol>
+          <li>Single Inheritance: A derived class inherits from a single base class.</li>
+          <li>Multiple Inheritance: A derived class inherits from more than one base class.</li>
+          <li>Multilevel Inheritance: A derived class is derived from another derived class.</li>
+          <li>Hierarchical Inheritance: Multiple derived classes inherit from a single base class.</li>
+          <li>Hybrid Inheritance: A combination of two or more types of inheritance.</li>
+        </ol>
+    </section>
+
+<section id="polymorph">
+    <h3>Polymorphism</h3>
+    <p>
+      Polymorphism is a key concept in object-oriented programming (OOP) that allows objects of different types to be treated as objects of a common super type. It is one of the core principles of OOP, alongside encapsulation and inheritance. Polymorphism allows for the definition of a single interface to entities of different types.
+There are two types of polymorphism in C++:
+    </p>
+    <ol>
+      <li>Compile-time Polymorphism (Static Polymorphism)</li>
+      <li>Run-time Polymorphism (Dynamic Polymorphism)</li>
+    </ol>
+</section>
+
+<section id="abstract">
+    <h3>Abstraction</h3>
+    <p>
+      Abstraction is one of the fundamental principles of object-oriented programming (OOP). It refers to the concept of hiding the complex implementation details of a system and exposing only the necessary and relevant parts to the user. This allows the user to interact with the system without needing to understand its inner workings. In C++, abstraction can be achieved using classes and access specifiers, as well as abstract classes and interfaces.
+    </p>
+    <p>Key Concepts of Abstraction</p>
+    <ul>
+      <li>Data Abstraction: Hiding the details of data implementation and showing only essential information.</li>
+      <li>Functional Abstraction: Hiding the implementation details of functions and exposing only the necessary functionality.</li>
+    </ul>
+    <p>Let's create a simple example to demonstrate data abstraction using a class in C++.</p>
+
+</section>
+
+    <section id="encap">
+        <h3>Encapsulation</h3>
+        <p>Encapsulation is one of the fundamental principles of object-oriented programming (OOP). It refers to the bundling of data (attributes) and methods (functions) that operate on the data into a single unit, typically a class. Encapsulation restricts direct access to some of the object's components, which can prevent the accidental modification of data.</p>
+        <p>Key Concepts of Encapsulation</p>
+        <ol>
+          <li>Data Hiding: Encapsulation hides the internal state of the object from the outside world and only exposes a controlled interface. This helps in protecting the data from unauthorized access and modification.     </li>
+          <li>Access Modifiers: Encapsulation is achieved using access modifiers to define the visibility of the class members. The common access modifiers in C++ are:  <ul>
+            <li>public: Members are accessible from outside the class.</li>
+            <li>private: Members are accessible only within the class.</li>
+            <li>protected: Members are accessible within the class and by derived classes.</li>
+          </ul>  </li>
+        </ol>
+        <p>Let's create a simple example to demonstrate encapsulation in C++.</p>
+    </section>
+  </main>
+  </body>
+</html>
