@@ -29,7 +29,10 @@
   .sidenav a:hover {
     color: #064579;
   }
-    
+   
+  div {
+    background-color: beige;
+  }
   
   main {
     margin-left: 300px; 
